@@ -126,12 +126,16 @@ body {
 
 /* Completed */
 ul#completed-tasks {
-    padding-left: 5px;
+    padding: 0px;
 }
 
-ul#completed-tasks .task__label {
+.completed .task__label {
     text-decoration: line-through;
     color: #888;
+}
+
+.completed .task__checkbox {
+    margin-left: 5px;
 }
 
 /* Edit Task */
