@@ -48,9 +48,10 @@
     padding-top: 25px;
 }
 
-.tasks__list {
+.tasks__list,
+.task__checkbox {
     margin: 0;
-    padding: 0px;
+    padding: 0;
     list-style: none;
 }
 
@@ -108,10 +109,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.task__status {
-    margin: 0 10px;
 }
 
 .task__btn img {
